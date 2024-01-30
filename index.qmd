@@ -37,7 +37,7 @@ format:
 ## Roadmap
 
 - Activity report
-- Wherefore a Center
+- Wherefore a Center?
 
 # Activity report
 
@@ -145,7 +145,7 @@ format:
 
 ## Data management workshop
 
-- Spring 2024
+- March-April 2024
 
 # Wherefore a Center
 
@@ -155,9 +155,16 @@ format:
 
 ---
 
-- No reinventing wheels
 - Be nimble, flexible, enabling, & efficient
-- Open, transparent, robust, & reproducible
+- Be open, transparent, robust, & reproducible
+- Focal point for existing initiatives
+
+## Related entities
+
+- Center for Open Science (COS): <https://cos.io>
+- MIT Center for Research on Equitable and Open Scholarship: <https://libraries.mit.edu/creos/about/>
+- Stanford Center for Open and REproducible Science (CORES): <https://datascience.stanford.edu/cores>
+- Stanford Center for Reproducible Neuroscience: <https://reproducibility.stanford.edu>
 
 ## Components
 
@@ -168,13 +175,13 @@ format:
 ## Scholarship
 
 - Impacts of open science practices
-- Open source tools, e.g. *databraryr*
+- Development of open source software tools, e.g. *databraryr*
 
 ## Teaching
 
 - How-to workshops
 - Bootcamps
-- Courses
+- Courses (undergraduate and graduate)
 
 ## Service
 
@@ -183,6 +190,29 @@ format:
 - Data curation services
 
 # Thank you!
+
+---
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Ana Enriquez, aee32@psu.edu
+- Rick Gilmore, rog1@psu.edu
+- Frank Hillary, fgh3@psu.edu
+
+:::
+
+::: {.column width="50%"}
+
+- Nicole Lazar, nfl5182@psu.edu
+- Alaina Pearce, azp271@psu.edu
+- Brianna Wham, bde125@psu.edu
+
+:::
+
+::::
+
 
 # Resources
 
@@ -197,6 +227,3 @@ plot(code)
 
 - This talk was written in [R Markdown](https://rmarkdown.rstudio.com) and rendered using [Quarto](https://quarto.org) to HTML slides using the [reveal.js framework](https://revealjs.com).
 - The talk repo is here: [github.com/penn-state-open-science/csc-odds-2024-02-16](https://github.com/penn-state-open-science/csc-odds-2024-02-16).
-
-## References
-
