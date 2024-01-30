@@ -1,0 +1,202 @@
+---
+title: "Center stage"
+subtitle: "Creating a focal point for open science @ Penn State"
+author: "Rick O. Gilmore"
+format: 
+  revealjs:
+    slide-number: true
+    footer: "Center stage: Creating a focal point for open science @ Penn State"
+    citations-hover: true
+    footnotes-hover: true
+---
+
+# Preliminaries
+
+## People
+
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- Ana Enriquez
+- Rick Gilmore
+- Frank Hillary
+
+:::
+
+::: {.column width="50%"}
+
+- Nicole Lazar
+- Alaina Pearce
+- Brianna Wham
+
+:::
+
+::::
+
+## Roadmap
+
+- Activity report
+- Wherefore a Center
+
+# Activity report
+
+## Survey
+
+- December 2022 - March 2023, $n=100$ respondents
+- <https://penn-state-open-science.github.io/survey-fall-2022/>
+- [IRB protocol](https://penn-state-open-science.github.io/survey-fall-2022/hrp-591.html) and full data cleaning, viz workflow openly shared
+
+---
+
+![What is your primary department/unit?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-dept-unit-1.png)
+
+---
+
+![What is your position at Penn State?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-position-1.png)
+
+---
+
+![What are the primary types of digital data that are used in your research?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-primary-data-types-1.png)
+---
+
+![Do you collect data that have legal or ethical restrictions governing who may access it or how it may be used?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/restricted-data-preprocess-1.png)
+
+---
+
+![Where do you store data for active projects where data collection and analysis is still ongoing?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-data-storage-places-1.png)
+
+---
+
+![How important to you is sharing data from completed projects with the broader research community (i.e., not direct collaborators)?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-import-share-community-1.png)
+---
+
+![Which of the following obstacles make sharing data with the research community harder for you?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-obstacles-to-sharing-w-comm-1.png)
+
+---
+
+![If you have shared data with the research community, where have you shared it?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-where-data-shared-1.png)
+
+---
+
+![How well-equipped do you feel you, your colleagues, and trainees are to meet data management and sharing requirements of sponsors/funders or journals?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-equipped-for-new-reqmts-1.png)
+
+---
+
+![How often do you openly share other materials related to your research (protocols, reagents, samples, apparatus, designs, etc.) with other researchers?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-share-materials-community-1.png)
+
+---
+
+![What is your experience with/knowledge of open science practices?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-experience-w-open-science-1.png)
+
+---
+
+![Describe your awareness of the FAIR (findable, accessible, interoperable, reusable) principles pertaining to research data.](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-awareness-FAIR-1.png)
+
+---
+
+![Is there a reproducibility crisis in your area of research?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-repro-crisis-your-area-1.png){width=80%}
+
+![How much benefit would you derive from a center at Penn State focused on supporting the adoption of best practices in data management and sharing, code sharing, open science, and reproducible research?](https://penn-state-open-science.github.io/survey-fall-2022/include/img/fig-benefit-from-psu-ctr-1.png)
+
+## Lessons learned
+
+- Many respondents are sharing data
+  - Ethical concerns may restrict 
+- Fewer sharing materials or code
+- Opportunities to enhance knowledge about open science practices
+- (Very hard to distribute surveys widely)
+
+## Bootcamp
+
+- August 2023
+- <https://penn-state-open-science.github.io/bootcamp-2023/>
+
+## Planning
+
+![<https://penn-state-open-science.github.io/bootcamp-2023/interest-survey.html>](https://penn-state-open-science.github.io/bootcamp-2023/include/img/survey-1-interests-1.png)
+
+## By the numbers
+
+![<https://penn-state-open-science.github.io/bootcamp-2023/registration-survey.html#by-position>](https://penn-state-open-science.github.io/bootcamp-2023/include/img/by-position-1.png)
+
+---
+
+![<https://penn-state-open-science.github.io/bootcamp-2023/registration-survey.html#by-department-college>](https://penn-state-open-science.github.io/bootcamp-2023/include/img/regis-attendance-dept-coll-1.png)
+
+## {background-iframe="https://penn-state-open-science.github.io/bootcamp-2023/day_1.html"}
+
+## {background-iframe="https://penn-state-open-science.github.io/bootcamp-2023/day_2.html"}
+
+## {background-iframe="https://penn-state-open-science.github.io/bootcamp-2023/day_3.html"}
+
+## Quarto Qrew
+
+- Summer - Fall 2023
+
+![<https://quarto.org>](include/img/quarto.org.png){width=80% fig-align="center"}
+
+## {background-iframe="https://psu-psychology.github.io/psych-490-reproducibility-2023-fall/"}
+
+## Communications
+
+- Listserv (l-open-science@lists.psu.edu)
+- Draft sites.psu.edu
+
+## Data management workshop
+
+- Spring 2024
+
+# Wherefore a Center
+
+## Principles
+
+![https://teacherhead.com/2017/02/27/reinventing-the-wheel-again/](https://headguruteacher.files.wordpress.com/2017/02/9464b325-d2f4-4604-8258-82093bf93af6.jpg)
+
+---
+
+- No reinventing wheels
+- Be nimble, flexible, enabling, & efficient
+- Open, transparent, robust, & reproducible
+
+## Components
+
+- Scholarship
+- Teaching
+- Service
+
+## Scholarship
+
+- Impacts of open science practices
+- Open source tools, e.g. *databraryr*
+
+## Teaching
+
+- How-to workshops
+- Bootcamps
+- Courses
+
+## Service
+
+- Data management plan preparation
+- Data management consulting
+- Data curation services
+
+# Thank you!
+
+# Resources
+
+---
+
+```{r}
+code <- qrcode::qr_code("https://penn-state-open-science.github.io/csc-odds-2024-02-16/")
+plot(code)
+```
+
+## Code
+
+- This talk was written in [R Markdown](https://rmarkdown.rstudio.com) and rendered using [Quarto](https://quarto.org) to HTML slides using the [reveal.js framework](https://revealjs.com).
+- The talk repo is here: [github.com/penn-state-open-science/csc-odds-2024-02-16](https://github.com/penn-state-open-science/csc-odds-2024-02-16).
+
+## References
+
