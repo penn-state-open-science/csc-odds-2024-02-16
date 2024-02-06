@@ -145,7 +145,22 @@ format:
 
 ## Data management workshop
 
-- March-April 2024
+:::: {.columns}
+
+::: {.column width="50%"}
+
+- **Alaina Pearce**
+- March 27, 2024, Dewey Room, University Libraries
+
+:::
+
+::: {.column width="50%"}
+
+![](https://sc-api.psu.edu/s3/files/styles/4_3_1500w/public/DSC_6681%20for%20PSNews%20Dewey%20room%20naming.jpg?h=6e526c05&itok=fTahAKyt)
+
+:::
+
+::::
 
 # Wherefore a Center
 
@@ -187,6 +202,7 @@ format:
 
 - Data management plan preparation
 - Data management consulting
+  - *Implementing* plans
 - Data curation services
 
 # Thank you!
