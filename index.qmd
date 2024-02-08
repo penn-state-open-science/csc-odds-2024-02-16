@@ -143,20 +143,23 @@ format:
 - Listserv (l-open-science@lists.psu.edu)
 - Draft sites.psu.edu
 
-## Data management workshop
+## Data management workshop^[Supported by the National Science Foundation]
 
 :::: {.columns}
 
 ::: {.column width="50%"}
 
-- **Alaina Pearce**
-- March 27, 2024, Dewey Room, University Libraries
+Alaina Pearce
+
+![](https://csc.la.psu.edu/wp-content/uploads/sites/26/2020/11/image-92-200x300.jpg)
 
 :::
 
 ::: {.column width="50%"}
 
-![](https://sc-api.psu.edu/s3/files/styles/4_3_1500w/public/DSC_6681%20for%20PSNews%20Dewey%20room%20naming.jpg?h=6e526c05&itok=fTahAKyt)
+8a-2p, March 27, 2024
+
+![Dewey Room, University Libraries](https://sc-api.psu.edu/s3/files/styles/4_3_1500w/public/DSC_6681%20for%20PSNews%20Dewey%20room%20naming.jpg?h=6e526c05&itok=fTahAKyt)
 
 :::
 
@@ -172,7 +175,7 @@ format:
 
 - Be nimble, flexible, enabling, & efficient
 - Be open, transparent, robust, & reproducible
-- Focal point for existing initiatives
+- Highlight & enhance existing initiatives
 
 ## Related entities
 
@@ -213,17 +216,27 @@ format:
 
 ::: {.column width="50%"}
 
-- Ana Enriquez, aee32@psu.edu
-- Rick Gilmore, rog1@psu.edu
-- Frank Hillary, fgh3@psu.edu
+Ana Enriquez</br>
+aee32@psu.edu</br></br>
+
+Rick Gilmore</br>
+rog1@psu.edu</br></br>
+
+Frank Hillary</br>
+fgh3@psu.edu
 
 :::
 
 ::: {.column width="50%"}
 
-- Nicole Lazar, nfl5182@psu.edu
-- Alaina Pearce, azp271@psu.edu
-- Brianna Wham, bde125@psu.edu
+Nicole Lazar</br>
+nfl5182@psu.edu</br></br>
+
+Alaina Pearce</br>
+azp271@psu.edu</br></br>
+
+Brianna Wham</br>
+bde125@psu.edu
 
 :::
 
