@@ -153,17 +153,33 @@ Alaina Pearce
 
 ![](https://csc.la.psu.edu/wp-content/uploads/sites/26/2020/11/image-92-200x300.jpg)
 
+Brianna Wham
+
+![]()
+
 :::
 
 ::: {.column width="50%"}
 
-8a-2p, March 27, 2024
+8:30 am - 2:00 pm, March 27, 2024
 
 ![Dewey Room, University Libraries](https://sc-api.psu.edu/s3/files/styles/4_3_1500w/public/DSC_6681%20for%20PSNews%20Dewey%20room%20naming.jpg?h=6e526c05&itok=fTahAKyt)
 
 :::
 
 ::::
+
+---
+
+08:30 am Coffee</br>
+09:00 am Welcome (Nicole Lazar & Rick Gilmore)</br>
+09:15 am Good enough practices for data management (Alaina Pearce)</br>
+10:15 am Break</br>
+10:30 am Policies (Briana Wham & Ana Enriquez)</br>
+11:00 am Interactive workshop</br>
+12:00 pm Lunch</br>
+12:45 pm Next steps</br>
+01:30 pm End of workshop
 
 # Wherefore a Center
 
@@ -189,11 +205,12 @@ Alaina Pearce
 - Scholarship
 - Teaching
 - Service
+- Outreach
 
 ## Scholarship
 
 - Impacts of open science practices
-- Development of open source software tools, e.g. *databraryr*
+- Development of open source software tools, e.g. [*databraryr*](https://cran.r-project.org/package=databraryr)
 
 ## Teaching
 
@@ -207,6 +224,20 @@ Alaina Pearce
 - Data management consulting
   - *Implementing* plans
 - Data curation services
+
+## Outreach
+
+![<https://www.psu.edu/news/academics/story/penn-state-announces-schedule-events-international-love-data-week-2024/>](include/img/love-data-week.png)
+---
+
+![<https://btaa.org/research/love-data-week/compete>](include/img/big-ten-data-viz.png)
+
+## "Vignettes" project
+
+- What do you wish that “past you” knew about making your work more open and reproducible?
+- What have you *learned* by engaging in Open Science practices?
+- What have you *changed* (how has your workflow changed)?
+- Possible book project
 
 # Thank you!
 
@@ -247,7 +278,7 @@ bde125@psu.edu
 
 ---
 
-```{r}
+```{r, fig.cap="HTML talk slides"}
 code <- qrcode::qr_code("https://penn-state-open-science.github.io/csc-odds-2024-02-16/")
 plot(code)
 ```
