@@ -8,6 +8,8 @@ format:
     footer: "Center stage: Creating a focal point for open science @ Penn State"
     citations-hover: true
     footnotes-hover: true
+params:
+  update_data: yes
 ---
 
 # Preliminaries
@@ -36,8 +38,25 @@ format:
 
 ## Roadmap
 
+- Homework
 - Activity report
 - Wherefore a Center?
+
+# Homework
+
+## Quick questions
+
+- What do you wish that “past you” knew about making your work more open, transparent, and reproducible?
+- What practices have you *changed* (how has your workflow changed)?
+- If you've engaged in open science practices, which ones?
+- What have you *learned* by engaging in these practices?
+
+---
+
+```{r, fig.cap="'Vignette' project questions"}
+code <- qrcode::qr_code("https://forms.gle/radHF6NLY1y9xidt7")
+plot(code)
+```
 
 # Activity report
 
@@ -143,31 +162,11 @@ format:
 - Listserv (l-open-science@lists.psu.edu)
 - Draft sites.psu.edu
 
-## Data management workshop^[Supported by the National Science Foundation]
+## Data management workshop^[Supported by the National Science Foundation under [IGE 1955049](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955049)]
 
-:::: {.columns}
+### Wednesday, March 27, 2024
 
-::: {.column width="50%"}
-
-Alaina Pearce
-
-![](https://csc.la.psu.edu/wp-content/uploads/sites/26/2020/11/image-92-200x300.jpg)
-
-Brianna Wham
-
-![]()
-
-:::
-
-::: {.column width="50%"}
-
-8:30 am - 2:00 pm, March 27, 2024
-
-![Dewey Room, University Libraries](https://sc-api.psu.edu/s3/files/styles/4_3_1500w/public/DSC_6681%20for%20PSNews%20Dewey%20room%20naming.jpg?h=6e526c05&itok=fTahAKyt)
-
-:::
-
-::::
+<https://penn-state-open-science.github.io/data-mgmt-2024/>
 
 ---
 
@@ -180,6 +179,13 @@ Brianna Wham
 12:00 pm Lunch</br>
 12:45 pm Next steps</br>
 01:30 pm End of workshop
+
+## Register
+
+```{r, fig.cap="Data Management Workshop Registration"}
+code <- qrcode::qr_code("https://forms.gle/WyD4AxajSnz1Wqe67")
+plot(code)
+```
 
 # Wherefore a Center
 
@@ -234,10 +240,69 @@ Brianna Wham
 
 ## "Vignettes" project
 
-- What do you wish that “past you” knew about making your work more open and reproducible?
-- What have you *learned* by engaging in Open Science practices?
-- What have you *changed* (how has your workflow changed)?
+- What do you wish that “past you” knew about making your work more open, transparent, and reproducible?
+- What practices have you *changed* (how has your workflow changed)?
+- If you've engaged in open science practices, which ones?
+- What have you *learned* by engaging in these practices?
 - Possible book project
+
+---
+
+```{r include=FALSE}
+if (!dir.exists('csv')) {
+  message("Creating missing `csv/`.")
+  dir.create("csv")
+}
+
+if (params$update_data) {
+  options(gargle_oauth_email = Sys.getenv("GMAIL_SURVEY"))
+  googledrive::drive_auth()
+  
+  googledrive::drive_download(
+    "Your experience with open science (Responses)",
+    path = "csv/experiences.csv",
+    type = "csv",
+    overwrite = TRUE
+    
+  )
+  message("Data updated.")
+} else {
+  message("Using stored data.")
+}
+
+experiences <-
+  readr::read_csv("csv/experiences.csv", show_col_types = FALSE)
+```
+
+```{r}
+experiences_clean <- experiences |>
+  dplyr::rename(
+    timestamp = "Timestamp",
+    past_you_knew = 'What do you wish that “past you” knew about data management and sharing?',
+    changed_practices = "What practices have you changed (how has your workflow changed)?",
+    which_open_practices = "If you've engaged in open science practices, which ones?" ,
+    lessons_learned = "What have you learned by engaging in these practices?",
+    final_thoughts = "Any final thoughts?"
+  )
+```
+
+## Past you --> Present you {.scrollable}
+
+```{r}
+experiences_clean$past_you_knew
+```
+
+## Changed practices {.scrollable}
+
+```{r}
+experiences_clean$changed_practices
+```
+
+## Lessons learned 
+
+```{r}
+experiences_clean$lessons_learned
+```
 
 # Thank you!
 
