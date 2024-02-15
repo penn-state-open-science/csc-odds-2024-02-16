@@ -5,9 +5,10 @@ author: "Rick O. Gilmore"
 format: 
   revealjs:
     slide-number: true
-    footer: "Center stage: Creating a focal point for open science @ Penn State"
+    footer: "Creating a focal point for open science @ Penn State"
     citations-hover: true
     footnotes-hover: true
+    link-external-icon: true
 params:
   update_data: yes
 ---
@@ -187,6 +188,22 @@ code <- qrcode::qr_code("https://forms.gle/WyD4AxajSnz1Wqe67")
 plot(code)
 ```
 
+---
+
+![<https://penn-state-open-science.github.io/data-mgmt-2024/>](https://penn-state-open-science.github.io/data-mgmt-2024/resources_files/figure-html/fig-registration-time-series-1.png)
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+![](https://penn-state-open-science.github.io/data-mgmt-2024/resources_files/figure-html/fig-registrations-by-college-1.png)
+:::
+::: {.column width="50%"}
+![](https://penn-state-open-science.github.io/data-mgmt-2024/resources_files/figure-html/fig-registrations-by-position-1.png)
+:::
+::::
+<https://penn-state-open-science.github.io/data-mgmt-2024/>
+
 # Wherefore a Center
 
 ## Principles
@@ -199,7 +216,7 @@ plot(code)
 - Be open, transparent, robust, & reproducible
 - Highlight & enhance existing initiatives
 
-## Related entities
+## Related entities elsewhere
 
 - Center for Open Science (COS): <https://cos.io>
 - MIT Center for Research on Equitable and Open Scholarship: <https://libraries.mit.edu/creos/about/>
@@ -216,7 +233,9 @@ plot(code)
 ## Scholarship
 
 - Impacts of open science practices
-- Development of open source software tools, e.g. [*databraryr*](https://cran.r-project.org/package=databraryr)
+- Development of open source software tools
+  
+![<https://databrary.github.io/databraryr/>](https://raw.githubusercontent.com/databrary/databraryr/master/man/figures/logo.png)
 
 ## Teaching
 
@@ -309,8 +328,7 @@ experiences_clean$lessons_learned
 ---
 
 :::: {.columns}
-
-::: {.column width="50%"}
+::: {.column width="25%"}
 
 Ana Enriquez</br>
 aee32@psu.edu</br></br>
@@ -322,8 +340,13 @@ Frank Hillary</br>
 fgh3@psu.edu
 
 :::
-
 ::: {.column width="50%"}
+```{r}
+code <- qrcode::qr_code("https://penn-state-open-science.github.io/csc-odds-2024-02-16/")
+plot(code)
+```
+:::
+::: {.column width="25%"}
 
 Nicole Lazar</br>
 nfl5182@psu.edu</br></br>
@@ -341,12 +364,6 @@ bde125@psu.edu
 
 # Resources
 
----
-
-```{r, fig.cap="HTML talk slides"}
-code <- qrcode::qr_code("https://penn-state-open-science.github.io/csc-odds-2024-02-16/")
-plot(code)
-```
 
 ## Code
 

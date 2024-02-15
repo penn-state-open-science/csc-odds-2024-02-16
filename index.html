@@ -531,7 +531,22 @@ Rick O. Gilmore
 <section id="register" class="slide level2">
 <h2>Register</h2>
 
-<img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Data Management Workshop Registration</p></section></section>
+<img data-src="index_files/figure-revealjs/unnamed-chunk-2-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">Data Management Workshop Registration</p></section>
+<section class="slide level2">
+
+
+<img data-src="https://penn-state-open-science.github.io/data-mgmt-2024/resources_files/figure-html/fig-registration-time-series-1.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://penn-state-open-science.github.io/data-mgmt-2024/" class="uri">https://penn-state-open-science.github.io/data-mgmt-2024/</a></p></section>
+<section class="slide level2">
+
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="https://penn-state-open-science.github.io/data-mgmt-2024/resources_files/figure-html/fig-registrations-by-college-1.png"></p>
+</div><div class="column" style="width:50%;">
+<p><img data-src="https://penn-state-open-science.github.io/data-mgmt-2024/resources_files/figure-html/fig-registrations-by-position-1.png"></p>
+</div>
+</div>
+<p><a href="https://penn-state-open-science.github.io/data-mgmt-2024/" class="uri">https://penn-state-open-science.github.io/data-mgmt-2024/</a></p>
+</section></section>
 <section>
 <section id="wherefore-a-center" class="title-slide slide level1 center">
 <h1>Wherefore a Center</h1>
@@ -549,8 +564,8 @@ Rick O. Gilmore
 <li>Highlight &amp; enhance existing initiatives</li>
 </ul>
 </section>
-<section id="related-entities" class="slide level2">
-<h2>Related entities</h2>
+<section id="related-entities-elsewhere" class="slide level2">
+<h2>Related entities elsewhere</h2>
 <ul>
 <li>Center for Open Science (COS): <a href="https://cos.io" class="uri">https://cos.io</a></li>
 <li>MIT Center for Research on Equitable and Open Scholarship: <a href="https://libraries.mit.edu/creos/about/" class="uri">https://libraries.mit.edu/creos/about/</a></li>
@@ -571,9 +586,10 @@ Rick O. Gilmore
 <h2>Scholarship</h2>
 <ul>
 <li>Impacts of open science practices</li>
-<li>Development of open source software tools, e.g.&nbsp;<a href="https://cran.r-project.org/package=databraryr"><em>databraryr</em></a></li>
+<li>Development of open source software tools</li>
 </ul>
-</section>
+
+<img data-src="https://raw.githubusercontent.com/databrary/databraryr/master/man/figures/logo.png" class="r-stretch quarto-figure-center"><p class="caption"><a href="https://databrary.github.io/databraryr/" class="uri">https://databrary.github.io/databraryr/</a></p></section>
 <section id="teaching" class="slide level2">
 <h2>Teaching</h2>
 <ul>
@@ -643,11 +659,17 @@ Rick O. Gilmore
 <section class="slide level2">
 
 <div class="columns">
-<div class="column" style="width:50%;">
+<div class="column" style="width:25%;">
 <p>Ana Enriquez<br> aee32@psu.edu<br><br></p>
 <p>Rick Gilmore<br> rog1@psu.edu<br><br></p>
 <p>Frank Hillary<br> fgh3@psu.edu</p>
 </div><div class="column" style="width:50%;">
+<div class="cell">
+<div class="cell-output-display">
+<p><img data-src="index_files/figure-revealjs/unnamed-chunk-8-1.png" width="960"></p>
+</div>
+</div>
+</div><div class="column" style="width:25%;">
 <p>Nicole Lazar<br> nfl5182@psu.edu<br><br></p>
 <p>Alaina Pearce<br> azp271@psu.edu<br><br></p>
 <p>Brianna Wham<br> bde125@psu.edu</p>
@@ -659,10 +681,6 @@ Rick O. Gilmore
 <h1>Resources</h1>
 
 </section>
-<section class="slide level2">
-
-
-<img data-src="index_files/figure-revealjs/unnamed-chunk-8-1.png" width="960" class="r-stretch quarto-figure-center"><p class="caption">HTML talk slides</p></section>
 <section id="code" class="slide level2">
 <h2>Code</h2>
 <ul>
@@ -670,7 +688,7 @@ Rick O. Gilmore
 <li>The talk repo is here: <a href="https://github.com/penn-state-open-science/csc-odds-2024-02-16">github.com/penn-state-open-science/csc-odds-2024-02-16</a>.</li>
 </ul>
 <div class="footer footer-default">
-<p>Center stage: Creating a focal point for open science @ Penn State</p>
+<p>Creating a focal point for open science @ Penn State</p>
 </div>
 </section></section>
 
@@ -1067,6 +1085,20 @@ Rick O. Gilmore
           });
         }
       }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+          var filterRegex = new RegExp('/' + window.location.host + '/');
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+              // default icon
+              link.classList.add("external");
+          }
+        }
     });
     </script>
     
