@@ -245,7 +245,9 @@ plot(code)
 
 ## Service
 
-- Data management plan preparation
+- Data management plans
+  - Preparation
+  - Policies (& storage)
 - Data management consulting
   - *Implementing* plans
 - Data curation services
