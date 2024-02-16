@@ -31,7 +31,7 @@ params:
 
 - Nicole Lazar
 - Alaina Pearce
-- Brianna Wham
+- Briana Wham
 
 :::
 
@@ -400,7 +400,7 @@ nfl5182@psu.edu</br></br>
 Alaina Pearce</br>
 azp271@psu.edu</br></br>
 
-Brianna Wham</br>
+Briana Wham</br>
 bde125@psu.edu
 
 :::
