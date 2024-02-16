@@ -163,11 +163,12 @@ plot(code)
 - Listserv (l-open-science@lists.psu.edu)
 - Draft sites.psu.edu
 
-## Data management workshop^[Supported by the National Science Foundation under [IGE 1955049](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955049)]
+## Data management workshop
 
-### Wednesday, March 27, 2024
+- Supported by the National Science Foundation under [IGE 1955049](https://www.nsf.gov/awardsearch/showAward?AWD_ID=1955049)]
+- Wednesday, March 27, 2024
 
-<https://penn-state-open-science.github.io/data-mgmt-2024/>
+## {background-iframe="https://penn-state-open-science.github.io/data-mgmt-2024/" .scrollable}
 
 ---
 
@@ -403,7 +404,6 @@ Brianna Wham</br>
 bde125@psu.edu
 
 :::
-
 ::::
 
 
