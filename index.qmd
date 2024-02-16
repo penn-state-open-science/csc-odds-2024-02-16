@@ -325,6 +325,49 @@ experiences_clean$changed_practices
 experiences_clean$lessons_learned
 ```
 
+## What does an AI think?
+
+```{r include=FALSE, eval=FALSE}
+create_image(prompt = "open science", size="512x512", response_format = "url")
+```
+
+!["open science"](include/img/open-ai-open-science.png)
+
+---
+
+```{r, include=FALSE, eval=FALSE}
+create_chat_completion(model = "gpt-3.5-turbo",
+                       messages = list(
+                         list("role" = "user", "content" = "should penn state create a center for open science?")
+                       ))
+```
+
+>"Should Penn State create a center for open science?"
+
+## {.scrollable}
+
+>As an AI language model, I don't have personal opinions. However, I can provide you with some information to help you make your own decision.
+
+>Creating a center for open science at Penn State can have several potential benefits. Open science promotes the principles of transparency, collaboration, and accessibility to scientific research and data. Here are some arguments in favor of establishing such a center:
+
+>(1). Transparency and reproducibility: Open science encourages researchers to openly share their data, methods, and findings. This allows for increased transparency and fosters reproducibility, which is crucial in ensuring the quality and integrity of scientific research.
+
+>(2). Collaboration and knowledge sharing: An open science center can facilitate collaboration between researchers, institutions, and communities. By sharing data and resources openly, scientists can collectively work to address complex research questions and accelerate scientific advancements.
+
+>(3). Accessibility and public engagement: Open science promotes making research accessible to all, including the public, policymakers, and other stakeholders. Creating a center dedicated to open science can lead to increased public engagement with research and improved knowledge dissemination beyond academic circles.
+
+>(4). Innovation and interdisciplinary research: Open science can encourage interdisciplinary collaboration and innovation. By openly sharing research outputs, data, and methodologies, researchers from different disciplines can build upon each other's work and generate new insights and ideas.
+
+>On the other hand, establishing a center for open science may have some challenges and considerations:
+
+>(1). Resources and funding: Creating and maintaining a center dedicated to open science requires financial resources. Securing funding and long-term sustainability may be a challenge.
+
+>(2). Cultural change: Embracing an open science culture might require a shift in mindset and practices within the academic community. Encouraging researchers to openly share their work and collaborate could face resistance from some individuals or disciplines.
+
+>(3). Intellectual property concerns: Open science raises questions about intellectual property rights and commercialization. Balancing the openness of research with the potential need to protect commercially valuable findings can be complex.
+
+>In the end, whether Penn State should create a center for open science depends on the institution's specific goals, priorities, available resources, and the level of support within its academic community. Engaging in discussions with relevant stakeholders, including researchers, faculty, and administrators, will help in making an informed decision.
+
 # Thank you!
 
 ---
